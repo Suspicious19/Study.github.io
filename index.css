@@ -67,14 +67,7 @@ nav ul li a {
     margin: 0;
     padding: 14px;
     color: ;
-    display: inline-block;
-	background: linear-gradient(45deg, #87adfe, #ff77cd);
-	border-radius: 6px;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	text-decoration: none;
-	color: #fff;
-	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+
   }
   .navbar input[type=text] {
     border: 1px solid #ccc;
@@ -92,13 +85,14 @@ nav ul li a {
 .content p {
 	font-size: 20px;
 	color: #6a7199;
-	max-width: 60%;
+	max-width: 50%;
 	text-align: justify;
 }
 
 .content {
 	margin-left: 10%;
 	margin-top: 10%;
+	float: left;
 }
 
 .content .btn {
@@ -110,4 +104,27 @@ nav ul li a {
 	text-decoration: none;
 	color: #fff;
 	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+	max-width: 50%;
+}
+
+.content img {
+	height: 60%;
+	position: absolute;
+	bottom: 0;
+	right: 160px;
+	float: right;
+}
+
+.social-links {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: -80px;
+	bottom: 180px;
+}
+
+.social-links a {
+	text-decoration: none;
+	color: #6a7199;
+	padding-right: 20px;
+	font-size: 14px;
 }
